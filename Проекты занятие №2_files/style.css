@@ -10,17 +10,15 @@ ul {
 }
 
 .main-section {
-    padding-bottom: 200px;
+    padding-bottom: 650px;
     background: url('../img/bg-bottom.png') bottom no-repeat;
-    background-size: 100%
-    
 }
 
 .container {
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 30px 30px;
+    padding: 15px 30px;
 }
 
 .header-logo {
@@ -32,21 +30,22 @@ ul {
 }
 
 .title {
-    margin: 5%;
+    margin: 104px 50px 0;
     font-family: "Gilroy - Extra Bold";
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 400;
 }
 
 @media (min-width: 768px) and (max-width: 1280px) {
     .title {
-        margin-top: 3   0px;
+        margin-top: 50px;
     }
 }
 
 
 .modules-list {
     width: 100%;
+    padding: 84px 0 0;
     font-size: 0;
 }
 
@@ -59,9 +58,9 @@ ul {
 .modules-item {
     display: inline-block; 
     position: relative;
-    width: 98%;
-    height: 500px;
-    margin: 2%;
+    width: 480px;
+    height: 505px;
+    margin: 30px 30px;
     font-size: 16px;
     box-shadow: -3px 1px 20px rgba(83, 83, 83, 0.31);
     vertical-align: top;
