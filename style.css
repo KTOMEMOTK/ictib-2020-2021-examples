@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div,
+section,
+ul {
+    box-sizing: border-box;
+}
+
+.main-section {
+    padding-bottom: 650px;
+    background: url('../img/bg-bottom.png') bottom no-repeat;
+}
+
+.container {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+
+.header-logo {
+    color: #222020;
+    font-family: Graphik;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.title {
+    margin: 104px 50px 0;
+    font-family: "Gilroy - Extra Bold";
+    font-size: 48px;
+    font-weight: 400;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .title {
+        margin-top: 50px;
+    }
+}
+
+
+.modules-list {
+    width: 100%;
+    padding: 84px 0 0;
+    font-size: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .modules-list {
+        padding-top: 40px;
+    }
+}
+
+.modules-item {
+    display: inline-block; 
+    position: relative;
+    width: calc(50% - 60px);
+    max-width: 480px;
+    height: 505px;
+    margin: 30px 30px;
+    font-size: 16px;
+    box-shadow: -3px 1px 20px rgba(83, 83, 83, 0.31);
+    vertical-align: top;
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1280px) {
+    .modules-item {
+        width: calc(50% - 30px);
+        margin: 15px 15px;
+        max-width: 480px;
+        height: 400px;
+    }
+}
+
+.modules-image {
+    max-width: 100%;
+}
+
+.modules-item-content {
+    padding: 30px 50px;
+}
+
+.modules-link {
+    color: #2f1ce4;
+    font-family: "Gilroy - Extra Bold";
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .modules-link {
+        font-size: 30px;
+    }
+}
+
+.modules-item-description-element {
+    list-style-type: none;
+    margin: 10px 0;
+    color: #222020;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.modules-item-number {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;    
+    color: #eaeaea;
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.modules-link-more {
+    display: block;
+    margin: 70px auto 0;
+    width: 280px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 2px;
+    border: 3px solid #2f1ce4;
+    color: #2f1ce4;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
